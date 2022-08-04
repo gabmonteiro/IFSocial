@@ -6,15 +6,34 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <com.google.android.material.appbar.AppBarLayout
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    //toolbar
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:theme="@style/Theme.IFsocial.AppBarOverlay">
+        android:id="@+id/reliLayout1">
+        <include
+            layout="@layout/layout_top"/>
 
 
+    </RelativeLayout>
+    <!--secção do meio-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/reliLayout2"
+        android:layout_below="@+id/reliLayout1">
 
-    </com.google.android.material.appbar.AppBarLayout>
+        <include
+            layout="@layout/layout_center"/>
 
-    <include layout="@layout/content_main" />
+
+</RelativeLayout>
+
+    <!--navegador de baixo-->
+
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
