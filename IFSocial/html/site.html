@@ -1,5 +1,6 @@
 <!DOCTYPE=html />
 <html lang="pt">
+<!--cabeçario-->
 
 <head>
     <div id="cabecario">
@@ -12,7 +13,14 @@
 </head>
 
 <body>
-    <div id="principal">
+    <!--Botões de seleção login ou Registro-->
+    <div>
+        <button id="ShowRegister">Register</button>
+        <p></p>
+        <button id="ShowLogin">Login</button>
+    </div>
+    <!--Form de register-->
+    <div id="register">
         <!--Formulário de registro-->
         <form method="post" action="form.java" id="form">
             <fieldset>
@@ -25,23 +33,27 @@
                     </li>
                     <li>
                         <!--Inserir Email-->
-                        <label for="email">E mail</label>
+                        <label for="email">E mail_______</label>
                         <input type="email" id="email" name="email" class="large" />
                     </li>
                     <li>
                         <!--Inserir senha-->
-                        <label for="senha">Senha</label>
+                        <label for="senha">Senha________</label>
                         <input type="password" id="senha" name="senha" class="large" />
                     </li>
                     <li>
                         <!--Escolher IF-->
-                        <label for="if">If</label>
+                        <label for="if">If___________</label>
                         <input type="text" id="if" name="if" class="large" />
                     </li>
 
                 </ul>
                 <input type="submit" class="create_profile" value="criar conta">
             </fieldset>
+    </div>
+    <!--Form de Login-->
+    <div id="login">
+
     </div>
 </body>
 

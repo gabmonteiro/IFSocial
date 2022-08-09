@@ -3,13 +3,39 @@ html {
     background-color: #252525;
 }
 
-#principal {
+#register {
     margin: 0 auto;
     font-size: large;
     font-family: monospace;
     height: fit-content;
     width: fit-content;
 
+}
+
+#ShowRegister {
+    margin: 0 auto;
+    height: fit-content;
+    width: fit-content;
+}
+
+#ShowLogin {
+    margin: 0 auto;
+    height: fit-content;
+    width: fit-content;
+}
+
+p {
+    margin: 0 auto;
+    height: fit-content;
+    width: fit-content;
+    align-items: center;
+
+}
+
+#ShowRegister {
+    margin: 0 auto;
+    height: fit-content;
+    width: fit-content;
 }
 
 #cabecario {
@@ -20,7 +46,7 @@ html {
 }
 
 #form {
-    background-color: #252525;
+    background-color: #5feb72;
     height: fit-content;
     width: fit-content;
     font-family: monospace;
@@ -57,4 +83,5 @@ button {
     cursor: pointer;
     height: fit-content;
     width: fit-content;
+    margin: 0 auto;
 }
