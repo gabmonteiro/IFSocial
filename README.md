@@ -2,4 +2,4 @@
 Rede social para alunos dos Institutos federais
 
 
-by: João Gabriel de Almeida @cocacolacomvodka & Ruan Bueno
+by: João Gabriel de Almeida @cocacolacomvodka & Ruan Bueno @rbxyz & Gabriel Monteiro @gabmonteiro
